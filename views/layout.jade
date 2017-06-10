@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+		script( src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js")
+		link(rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+		script(src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
+		link(href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css')
+		link(rel="stylesheet" type="text/css" href="/static/index.css")
+		script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw2NDUljvFp3ksp6vidWesxhCgvZ0mCM0"
+type="text/javascript")
+		title Localisong
+		body(onload="carga()")
+			nav(class="navbar navbar-inverse navbar-fixed")
+				div.container-fluid
+					div.navbar-header
+						a.navbar-brand( class="navbar-brand" href="http://localhost:8080/" style="font-size:2.1em; margin-top:5px;") Localisong
+					ul(class="nav navbar-nav navbar-right")
+						li
+							a(href="/ROADMAP/about") Acerca de
+						li
+							a(href="/ROADMAP/contact") Contactanos
+		block headerPage
